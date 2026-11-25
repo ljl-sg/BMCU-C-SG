@@ -1,0 +1,25 @@
+# ---- PlatformIO / 编译产物 ----
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio_parallel/
+.build_pool/
+*.o
+*.d
+*.elf
+*.map
+
+# ---- 日志与临时文件 ----
+*.log
+*.err
+.release.log
+__pycache__/
+*.pyc
+
+# ---- 系统文件 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 本地私有目录（不纳入版本库）
+_secrets/
